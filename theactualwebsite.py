@@ -26,8 +26,7 @@ with tab1:
     st.write('im nooby. what did u think?')
     st.subheader('Why did you make this website?')
     st.write("uhhhhhhhh double it and give it to the next person")
-    st.subheader("Why did you double it
-and gave it to the next person?")
+    st.subheader("Why did you double it")
     st.write("okay this tab is over")
 
 with tab2:
