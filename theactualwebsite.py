@@ -2,6 +2,9 @@ import streamlit as st
 
 hide_streamlit_style = """
             <style>
+            body {
+                 scroll-behavior: smooth;
+            }
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
