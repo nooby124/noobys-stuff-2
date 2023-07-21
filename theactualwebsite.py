@@ -18,7 +18,7 @@ with tab0:
     st.subheader('check the other tabs for other stuff')
 
 with tab1:
-    st.title("this is just a section about me, if u dont care like literally everyone")
+    st.title("this is just a section about me, if u dont care leave")
     st.subheader("Who are you?")
     st.write('im nooby. what did u think?')
     st.subheader('Why did you make this website?')
