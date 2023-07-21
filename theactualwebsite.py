@@ -10,7 +10,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 td = "---"
 
-tab0, tab1, tab2, tab3 = st.tabs([" ", "me", "gimme ideas im bored", "github page"])
+tab0, tab1, tab2, tab3, tab4 = st.tabs([" ", "me", "gimme ideas im bored", "github page", "reviewing your ideas"])
 
 with tab0:
     st.title('hello and welcome to noobys website!')
@@ -37,6 +37,10 @@ with tab2:
     </form>
     """
     st.components.v1.html(contact_form)
+with tab4:
+    st.title("no ideas yet")
+    st.write("submit your ideas at the 'gimme your ideas im bored' tab"
+
 with tab3:
     st.title(" ")
     st.write("[heres the github page >](https://github.com/nooby124/noobys-stuff-2/tree/main)")
