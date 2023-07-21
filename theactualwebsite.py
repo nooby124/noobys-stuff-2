@@ -37,3 +37,5 @@ with tab2:
     </form>
     """
     st.components.v1.html(contact_form)
+with tab3:
+            st.title("[heres the github page](https://github.com/nooby124/noobys-stuff-2/tree/main)"
