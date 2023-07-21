@@ -38,4 +38,4 @@ with tab2:
     """
     st.components.v1.html(contact_form)
 with tab3:
-            st.title("[heres the github page >](https://github.com/nooby124/noobys-stuff-2/tree/main)"
+            st.write("[heres the github page >](https://github.com/nooby124/noobys-stuff-2/tree/main)"
