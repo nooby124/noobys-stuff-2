@@ -37,10 +37,11 @@ with tab2:
     </form>
     """
     st.components.v1.html(contact_form)
-with tab4:
-    st.title("no ideas yet")
-    st.write("submit your ideas at the 'gimme your ideas im bored' tab"
 
 with tab3:
     st.title(" ")
     st.write("[heres the github page >](https://github.com/nooby124/noobys-stuff-2/tree/main)")
+
+with tab4:
+    st.title("no ideas yet")
+    st.write("submit your ideas at the 'gimme your ideas im bored' tab"
