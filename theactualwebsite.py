@@ -2,11 +2,11 @@ import streamlit as st
 
 hide_streamlit_style = """
             <style>
-            body {
-                 scroll-behavior: smooth;
-            }
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
+                        body {
+                 scroll-behavior: smooth;
+            }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
