@@ -1,26 +1,26 @@
 import streamlit as st
 
-st.markdown(
-    """
-    <style>
-    /* Remove the copy button */
-    [data-testid="stCopyToClipboardV2"] {
-        display: none !important;
-    }
-    
-    /* Hide the "Made with Streamlit" footer */
-    .element-container:nth-last-child(1) {
-        display: none !important;
-    }
-    
-    /* Set scroll behavior to smooth */
-    body {
-        scroll-behavior: smooth;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+css = """
+<style>
+/* Hide copy button */
+[data-testid="stCopyIcon"] {
+    display: none !important;
+}
+
+/* Hide "Made with Streamlit" footer */
+footer { 
+    display: none !important;
+}
+
+/* Set scroll behavior to smooth */
+html {
+    scroll-behavior: smooth;
+}
+</style>
+"""
+
+st.markdown(css, unsafe_allow_html=True)
+
 
 td = "---"
 
