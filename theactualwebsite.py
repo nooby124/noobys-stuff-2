@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.beta_set_page_config(footer_visibility="off")
-
+def main():
+    # Load custom CSS
+    st.markdown('<link href="styles.css" rel="stylesheet">', unsafe_allow_html=True)
 
 td = "---"
 
