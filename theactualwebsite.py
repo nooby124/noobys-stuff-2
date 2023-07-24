@@ -1,22 +1,7 @@
 import streamlit as st
 
-st.markdown(
-    """
-    <style>
-    #MainMenu {
-        visibility: hidden;
-    }
-    footer {
-        display: none;
-    }
-    html {
-        scroll-behavior: smooth;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)True
-)
+st.beta_set_page_config(footer_visibility="off")
+
 
 td = "---"
 
