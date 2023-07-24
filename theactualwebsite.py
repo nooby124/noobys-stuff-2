@@ -8,7 +8,16 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-#not sure if it will work
+
+hide_copy_style = """
+    <style>
+    [data-testid="stCopyIcon"] {
+        display: none;
+    }
+    </style>
+"""
+st.markdown(hide_copy_style, unsafe_allow_html=True)
+
 td = "---"
 
 tab0, tab1, tab2, tab3, tab4 = st.tabs(["home", "me", "gimme ideas im bored", "github page", "reviewing your ideas"])
