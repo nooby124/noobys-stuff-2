@@ -1,0 +1,14 @@
+/* RemoveMade with Streamlit" footer */
+.streamlit-footer {
+    display: none;
+}
+
+/* Set scroll behavior to smooth */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Remove copy icons */
+Markdown button.copyButton {
+    display: none;
+}
