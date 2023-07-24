@@ -43,4 +43,4 @@ with tab4:
     st.write("submit your ideas at the 'gimme your ideas im bored' tab")
 
 if __name__ == '__main__':
-    main(
+    main()
