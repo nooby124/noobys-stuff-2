@@ -15,14 +15,6 @@ html {
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-hide_copy_style = """
-<style>
-[data-testid="stCopyIcon"] {
-    display: none;
-}
-</style>
-"""
-st.markdown(hide_copy_style, unsafe_allow_html=True)
 
 td = "---"
 
