@@ -7,6 +7,8 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 hide_copy_style = """
     <style>
     [data-testid="stCopyIcon"] {
@@ -14,8 +16,7 @@ hide_copy_style = """
     }
     </style>
 """
-st.markdown(hide_copy_style, hide_streamlit_style, unsafe_allow_html=True)
-
+st.markdown(hide_copy_style, unsafe_allow_html=True)
 
 td = "---"
 
