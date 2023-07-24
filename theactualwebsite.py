@@ -6,15 +6,16 @@ st.markdown(
     #MainMenu {
         visibility: hidden;
     }
-    #footer {
-        visibility: hidden;
+    footer {
+        display: none;
     }
-    #html {
+    html {
         scroll-behavior: smooth;
     }
     </style>
     """,
     unsafe_allow_html=True
+)True
 )
 
 td = "---"
