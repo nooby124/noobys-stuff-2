@@ -1,20 +1,17 @@
 import streamlit as st
 
-hide_streamlit_style = """
+hide_copy_style = """
 <style>
 i.fa.fa-copy {
   display: none;
 }
-#MainMenu, footer {
-    display: none;
-}
+
 html {
   scroll-behavior: smooth;
 }
 </style>
 """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
+st.markdown(hide_copy_style, unsafe_allow_html=True)
 
 td = "---"
 
