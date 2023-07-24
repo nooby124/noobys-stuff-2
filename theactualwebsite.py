@@ -6,10 +6,10 @@ st.markdown(
     #MainMenu {
         visibility: hidden;
     }
-    footer {
+    #footer {
         visibility: hidden;
     }
-    html {
+    #html {
         scroll-behavior: smooth;
     }
     </style>
