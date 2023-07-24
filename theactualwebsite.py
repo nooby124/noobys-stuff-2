@@ -2,8 +2,14 @@ import streamlit as st
 
 hide_streamlit_style = """
 <style>
+i.fa.fa-copy {
+  display: none;
+}
 #MainMenu, footer {
     display: none;
+}
+html {
+  scroll-behavior: smooth;
 }
 </style>
 """
