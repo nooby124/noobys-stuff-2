@@ -1,26 +1,21 @@
 import streamlit as st
 
-css = """
-<style>
-/* Hide copy button */
-[data-testid="stCopyIcon"] {
-    display: none !important;
-}
-
-/* Hide "Made with Streamlit" footer */
-footer { 
-    display: none !important;
-}
-
-/* Set scroll behavior to smooth */
-html {
-    scroll-behavior: smooth;
-}
-</style>
-"""
-
-st.markdown(css, unsafe_allow_html=True)
-
+st.markdown(
+    """
+    <style>
+    #MainMenu {
+        visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 td = "---"
 
