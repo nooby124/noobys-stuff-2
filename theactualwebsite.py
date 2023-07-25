@@ -1,5 +1,9 @@
 import streamlit as st
 
+title = "Noobys Stuff 2"
+st.set_page_config(page_title=title)
+
+
 st.markdown("""
 <style>
 html {
