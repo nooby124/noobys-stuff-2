@@ -1,11 +1,12 @@
 import streamlit as st
 
-st.set_page_config(
-   page_title="Noobys Stuff 2",
-   layout="wide",
-   initial_sidebar_state="expanded",
-)
-
+st.markdown("""
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+""", unsafe_allow_html=True)
 td = "---"
 
 tab0, tab1, tab2, tab3, tab4 = st.tabs(["home", "me", "gimme ideas im bored", "github page", "reviewing your ideas"])
