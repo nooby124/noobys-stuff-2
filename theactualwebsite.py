@@ -57,6 +57,8 @@ with tab3:
     st.write("[heres the github page >](https://github.com/nooby124/noobys-stuff-2/tree/main)")
 
 with tab4:
-    st.title("no ideas yet")
+    st.subheader("we have an idea from 'ligma' wow nice name")
+    
+    st.title("no more ideas yet")
     st.write("submit your ideas at the 'gimme your ideas im bored' tab")
 
