@@ -12,14 +12,6 @@ html {
 </style>
 """, unsafe_allow_html=True)
 
-css = """
-<style>
-.stApp {
-    visibility: hidden;
-}
-</style>
-"""
-
 st.markdown(css, unsafe_allow_html=True)
 
 td = "---"
