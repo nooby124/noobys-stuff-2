@@ -51,6 +51,7 @@ with tab3:
 with tab4:
     st.subheader("we have an idea from 'ligma' wow very original name")
     st.image("asddd.png")
+    st.write("wow you really love that 2017 meme about ninja having ligma also fuck you for writing fuck you in the idea")
     st.title("no more ideas yet")
     st.write("submit your ideas at the 'gimme your ideas im bored' tab")
 
