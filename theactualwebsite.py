@@ -50,7 +50,7 @@ with tab3:
 
 with tab4:
     st.subheader("we have an idea from 'ligma' wow very original name")
-    st.image(Screenshot 2023-07-27 195052.png)
+    st.image("asddd.png")
     st.title("no more ideas yet")
     st.write("submit your ideas at the 'gimme your ideas im bored' tab")
 
