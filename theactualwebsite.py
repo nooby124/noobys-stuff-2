@@ -12,7 +12,7 @@ html {
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown(css, unsafe_allow_html=True)
+
 
 td = "---"
 
